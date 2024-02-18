@@ -8,15 +8,15 @@
       <Variant mode="AMBIENT" target="alpha" value="0"/>
     </PartImage>
 
-    <ComplicationSlot x="0" y="0" width="450"
-        height="450" slotId="1"
+    <ComplicationSlot x="0" y="225" width="450"
+        height="225" slotId="1"
         supportedTypes="RANGED_VALUE" isCustomizable="FALSE" >
       <DefaultProviderPolicy
         defaultSystemProvider="WATCH_BATTERY" defaultSystemProviderType="RANGED_VALUE"
-        primaryProvider="com.skygallant.jscompass.complication.rose.JSRoseService" primaryProviderType="RANGED_VALUE" />
+        primaryProvider="com.skygallant.jscompass.complication.rose/com.skygallant.jscompass.complication.rose.Service" primaryProviderType="RANGED_VALUE" />
       <BoundingBox x="0" y="225" width="450" height="225" />
       <Complication type="RANGED_VALUE">
-        <PartImage x="0" y="0" width="450" height="450"
+        <PartImage x="0" y="-225" width="450" height="450"
             pivotX="0.5" pivotY="0.5" angle="0">
           <Image resource="js_rose.png" />
           <Transform target="angle" value="[COMPLICATION.RANGED_VALUE_VALUE]">
@@ -26,14 +26,14 @@
         </PartImage>
       </Complication>
     </ComplicationSlot>
-<!--
+
     <ComplicationSlot x="0" y="0" width="450"
-        height="450" slotId="2"
+        height="225" slotId="2"
         supportedTypes="RANGED_VALUE" isCustomizable="FALSE" >
       <BoundingBox x="0" y="0" width="450" height="225" />
       <DefaultProviderPolicy
         defaultSystemProvider="WATCH_BATTERY" defaultSystemProviderType="RANGED_VALUE"
-        primaryProvider="com.skygallant.jscompass.complication.compass.JSCompassService" primaryProviderType="RANGED_VALUE" />
+        primaryProvider="com.skygallant.jscompass.complication.compass/com.skygallant.jscompass.complication.compass.Service" primaryProviderType="RANGED_VALUE" />
       <Complication type="RANGED_VALUE">
         <PartImage x="0" y="0" width="450" height="450"
             pivotX="0.5" pivotY="0.5" angle="0">
@@ -45,7 +45,7 @@
         </PartImage>
       </Complication>
     </ComplicationSlot>
--->
+
     <AnalogClock x="0" y="0" width="450" height="450">
       <SecondHand resource="@drawable/second_hand" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
         <Variant mode="AMBIENT" target="alpha" value="0"/>
