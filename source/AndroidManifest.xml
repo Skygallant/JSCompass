@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skygallant.jscompass"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+  <uses-feature android:name="android.hardware.type.watch" />
+
+  <uses-sdk android:minSdkVersion="33" />
+
+  <!-- Note: hasCode is required to be false for Watch Face Format -->
+  <application
+    android:label="@string/watch_face_name"
+    android:hasCode="false">
+    <property
+      android:name="com.google.wear.watchface.format.version"
+      android:value="1" />
+    <property
+      android:name="com.google.wear.watchface.format.publisher"
+      android:value="VSCode-1.86.2" />
+  </application>
+</manifest>
