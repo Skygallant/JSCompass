@@ -14,7 +14,7 @@
       <DefaultProviderPolicy
         defaultSystemProvider="WATCH_BATTERY" defaultSystemProviderType="RANGED_VALUE"
         primaryProvider="com.skygallant.jscompass.complication.rose/com.skygallant.jscompass.complication.rose.Service" primaryProviderType="RANGED_VALUE" />
-      <BoundingBox x="0" y="225" width="450" height="225" />
+      <BoundingBox x="0" y="0" width="450" height="225" />
       <Complication type="RANGED_VALUE">
         <PartImage x="0" y="-225" width="450" height="450"
             pivotX="0.5" pivotY="0.5" angle="0">
