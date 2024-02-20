@@ -22,4 +22,5 @@ It will point to a random location within walking distance of where you first ta
 
 # Troubleshooting:
 There are a few toast messages the app uses to alert the user to problems, there is "Rose Perms" if the compass rose companion has not had its permissions set, and there is "Rose Pos" if the compass rose can not find a GPS signal, and similar functionality for the destiny compass with "Compass Pos" and "Compass Perms".
+Something else to keep in mind is if you tap the top of the watch to update the destiny compass, and there is no current location seelcted to point to, you will get a "Fate" toast. This means that the watch is busy selecting a location. After a couple of seconds, you can tap again to update the compass normally.
 Also, there is currently a debug toast message that tells you the name of the location that the Destiny Compass is pointing to. This isn't really how it's supposed to work, it's supposed to be a surprise, but until I am comfortable that the geofencing is working, I'll leave it in.
