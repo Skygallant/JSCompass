@@ -18,7 +18,7 @@ Because I was not able to figure out how to make the pop-up appear since the com
 The two complications can be updated by tapping on the upper/lower halves of the screen. the upper half will update the destiny compass and the lower half will update the compass rose.
 the "Compass Rose" is what I call the red N/S/E/W compass, which orients north, and even accounts for magnetic declination
 the "Destiny Compass" is the gold star in the middle (you can't miss it!) and it is the *star* of the show!
-It will point to a random location within walking distance of where you first tapped the screen, and when you get to that location, it'll pick a new place to explore automagically! It's the perfect companion for your adventures.
+It will point to a random location within walking distance of where you first tapped the screen, and when you get to that location, the watch should vibrate and it'll pick a new place to explore automagically! It's the perfect companion for your adventures.
 
 # Troubleshooting:
 There are a few toast messages the app uses to alert the user to problems, there is "Rose Perms" if the compass rose companion has not had its permissions set, and there is "Rose Pos" if the compass rose can not find a GPS signal, and similar functionality for the destiny compass with "Compass Pos" and "Compass Perms".
