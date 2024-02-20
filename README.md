@@ -6,7 +6,7 @@ It's fairly straightforward, you just need to set up some environment stuff and 
 The watch face can't do much on its own though, apart from telling the time, so you'll need the two companion complication services I wrote to accompany it.
 they can be found here: https://github.com/Skygallant/JSCompassRose and here: https://github.com/Skygallant/JSCompassDestiny
 The Compass Rose app should build fine in Android Studio, but the Compass Destiny will need a Google Maps API key which can be generated here: https://console.cloud.google.com/google/maps-apis/credentials
-put our API key into your local.properties file and call it like so: `GOOGLE_MAPS_API_KEY=xxxxxxxxxx`
+put your API key into your local.properties file and call it like so: `GOOGLE_MAPS_API_KEY=xxxxxxxxxx`
 then the app should work.
 
 # How to Install:
