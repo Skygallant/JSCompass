@@ -5,7 +5,7 @@
   <Scene backgroundColor="#ff000000">
     <PartImage x="0" y="0" width="450" height="450" tintColor="#ffffffff">
       <Image resource="@drawable/pixel_clock" />
-      <Variant mode="AMBIENT" target="alpha" value="0"/>
+      <!--<Variant mode="AMBIENT" target="alpha" value="0"/>-->
     </PartImage>
 
     <ComplicationSlot x="0" y="225" width="450"
@@ -48,10 +48,10 @@
 
     <AnalogClock x="0" y="0" width="450" height="450">
       <HourHand resource="@drawable/hour_hand" tintColor="#ff37cccc" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5">
-        <Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>
+        <!--<Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>-->
       </HourHand>
       <MinuteHand resource="@drawable/minute_hand" tintColor="#ff37cccc" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
-        <Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>
+        <!--<Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>-->
       </MinuteHand>
       <SecondHand resource="@drawable/second_hand" tintColor="#ff37cc66" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
         <Variant mode="AMBIENT" target="alpha" value="0"/>
