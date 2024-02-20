@@ -2,7 +2,7 @@ This is a watch face I made using watch face format. It works like Jack Sparrow'
 
 # Things I Used for Building:
 To build the watch face I used a .sh script I found here: https://github.com/android/wear-os-samples/blob/main/WatchFaceFormat/build-wff.sh
-It's fairly straightforward, you just need to set up some environment stuff and throw in the files in this repo.
+It's fairly straightforward, you just need to set up some environment stuff and throw in the files from this repo.
 The watch face can't do much on its own though, apart from telling the time, so you'll need the two companion complication services I wrote to accompany it.
 they can be found here: https://github.com/Skygallant/JSCompassRose and here: https://github.com/Skygallant/JSCompassDestiny
 The Compass Rose app should build fine in Android Studio, but the Compass Destiny will need a Google Maps API key which can be generated here: https://console.cloud.google.com/google/maps-apis/credentials
