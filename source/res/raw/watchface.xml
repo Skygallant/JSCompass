@@ -16,9 +16,9 @@
         primaryProvider="com.skygallant.jscompass.complication.rose/com.skygallant.jscompass.complication.rose.Service" primaryProviderType="RANGED_VALUE" />
       <BoundingBox x="0" y="0" width="450" height="225" />
       <Complication type="RANGED_VALUE">
-        <PartImage x="0" y="-225" width="450" height="450"
+        <PartImage x="0" y="-225" width="450" height="450" tintColor="#ffc80028"
             pivotX="0.5" pivotY="0.5" angle="0">
-          <Image resource="js_rose.png" />
+          <Image resource="@drawable/js_rose" />
           <Transform target="angle" value="[COMPLICATION.RANGED_VALUE_VALUE]">
             <Animation duration="2.5" />
           </Transform>
@@ -35,9 +35,9 @@
         defaultSystemProvider="WATCH_BATTERY" defaultSystemProviderType="RANGED_VALUE"
         primaryProvider="com.skygallant.jscompass.complication.compass/com.skygallant.jscompass.complication.compass.Service" primaryProviderType="RANGED_VALUE" />
       <Complication type="RANGED_VALUE">
-        <PartImage x="0" y="0" width="450" height="450"
+        <PartImage x="0" y="0" width="450" height="450" tintColor="#fff0af28"
             pivotX="0.5" pivotY="0.5" angle="0">
-          <Image resource="js_compass.png" />
+          <Image resource="@drawable/js_compass" />
           <Transform target="angle" value="[COMPLICATION.RANGED_VALUE_VALUE]">
             <Animation duration="2.5" />
           </Transform>
@@ -47,14 +47,16 @@
     </ComplicationSlot>
 
     <AnalogClock x="0" y="0" width="450" height="450">
-      <SecondHand resource="@drawable/second_hand" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
+      <HourHand resource="@drawable/hour_hand" tintColor="#ff37cccc" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5">
+        <Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>
+      </HourHand>
+      <MinuteHand resource="@drawable/minute_hand" tintColor="#ff37cccc" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
+        <Variant mode="AMBIENT" target="tintColor" value="#ffffffff"/>
+      </MinuteHand>
+      <SecondHand resource="@drawable/second_hand" tintColor="#ff37cc66" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
         <Variant mode="AMBIENT" target="alpha" value="0"/>
         <Sweep frequency="15"/>
       </SecondHand>
-      <MinuteHand resource="@drawable/minute_hand" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY=".5">
-      </MinuteHand>
-      <HourHand resource="@drawable/hour_hand" x="0" y="0" width="450" height="450" pivotX="0.5" pivotY="0.5">
-      </HourHand>
     </AnalogClock>
   </Scene>
 </WatchFace>
